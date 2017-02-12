@@ -1,4 +1,4 @@
 # FullControl
-Skin for watch every detail on your pc.
+Current version: 1.0.0
 
-1.0.0
+Skin for watch every detail on your pc.
