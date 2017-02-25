@@ -1,3 +1,2 @@
-Set-ExecutionPolicy RemoteSigned
 Add-Type -A System.IO.Compression.FileSystem
-[IO.Compression.ZipFile]::ExtractToDirectory('master.zip', '..\..\..\')
+[IO.Compression.ZipFile]::ExtractToDirectory('..\..\..\Ilustro-Full-master.zip', '..\..\..\')

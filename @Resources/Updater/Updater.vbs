@@ -1,5 +1,5 @@
     strFileURL = "https://codeload.github.com/Zaragan/Ilustro-Full/zip/master"
-    strHDLocation = "master.zip"
+    strHDLocation = "..\..\..\Ilustro-Full-master.zip"
 
     Set objXMLHTTP = CreateObject("MSXML2.XMLHTTP")
 
