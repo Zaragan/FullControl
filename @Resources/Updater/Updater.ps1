@@ -1,2 +1,2 @@
 Add-Type -A System.IO.Compression.FileSystem
-[IO.Compression.ZipFile]::ExtractToDirectory::boolean('..\..\..\Ilustro-Full-master.zip', '..\..\..\', 'true')
+[IO.Compression.ZipFile]::ExtractToDirectory('..\..\..\Ilustro-Full-master.zip', '..\..\..\')
