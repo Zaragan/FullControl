@@ -1,7 +1,6 @@
-﻿{For comments use brackets} 
+﻿{ #CRLF# is a pre-defined varaible for newline.}
 [Variables]
-{Variables declared here can be used later on between two # characters (e.g. #MyVariable#).}
-{ #CRLF# is a pre-defined varaible for newline.}
+
 {----- Language -----}
 @includeLanguage=#@#\Languages\es_ES.inc
 
@@ -15,6 +14,14 @@ TimeFormat=H
  and search for something like "10 megabytes in bits".}
 maxDownload=10485760
 MaxUpload=10485760
+
+{----- Weather -----}
+{Go to https://weather.com and put your location on upper right box, then take the letters and numbers between "/" and ":" Example on Modesto(CA): https://weather.com/weather/today/l/USCA0714:1:US take "USCA0714" and replace it below.}
+Loc=SPXX9987
+{Use "I" for Imperial and "M" for Metric}
+Unit=M
+{Put your locale here to show weather in your language. en_GB for Great Britain english, en_US for United States english... Check your locale here if you dont know yours https://msdn.microsoft.com/en-us/library/cc233982.aspx Use the "Language Tag" column and dont forget to replace "-" to "_".}
+Locale=es_ES
 
 {----- Disk ------}
 {HOWTO: Change disks letters
@@ -39,6 +46,7 @@ this 2 disks skin into a 3 disks skin. You can then extend it even further as yo
     'Refresh All'. Now go activate the 'Disk.ini' skin and enjoy! :)}
 
 {----- Player Skin -----}
+{Search for your prefered player here https://docs.rainmeter.net/manual/plugins/nowplaying/ on the section "supported players"}
 WhatPlayerUse=AIMP
 
 {Updater - Do not change anything here!!}
