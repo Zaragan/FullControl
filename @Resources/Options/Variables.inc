@@ -69,6 +69,6 @@ this 2 disks skin into a 3 disks skin. You can then extend it even further as yo
 WhatPlayerUse=AIMP
 
 {Updater - Do not change anything here!!}
-version=2.2.0
+version=2.2.1
 githubCurrentReleaseVerFilePath=https://github.com/Zaragan/FullControl/blob/master/README.md
 
